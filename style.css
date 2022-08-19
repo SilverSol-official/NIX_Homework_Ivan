@@ -1,0 +1,13 @@
+li,a{
+    text-decoration: none;
+    color:black;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+li:hover{
+    list-style-type: circle;
+}
+
+
+
