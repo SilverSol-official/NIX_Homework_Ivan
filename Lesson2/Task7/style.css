@@ -2,7 +2,7 @@ p:first-child{
     color:rgb(255,0,0);
 }
 
-p:only-child{
+div p:only-child{
     color: white;
 }
 
