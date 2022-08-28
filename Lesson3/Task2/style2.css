@@ -1,0 +1,15 @@
+.color1{
+    color:blue;
+}
+.color2{
+    color:rgb(0,0,255);
+}
+.color3{
+    color:hsl(240, 100%, 50%);
+}
+.color4{
+    color:rgba(0, 0, 255, 1);
+}
+body{
+    opacity: 0.3;
+}
