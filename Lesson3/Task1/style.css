@@ -1,0 +1,23 @@
+p{
+    font-weight: bold;
+    line-height: 2;
+    font-size: 14px;
+}
+.hex-color{
+    color:#eb4034;
+}
+.name-color{
+    color:orange;
+}
+.rgb-color{
+    color:rgb(91,235,52);
+}
+.hsl-color{
+    color:hsl(255,82%,56%);
+}
+.rgba-color{
+    color:rgba(245, 95, 255, 0.81);
+}
+body{
+    background-image: url(de4872a4aa7ba8f15a3c06dc94b4b4bd.jpg);
+}
