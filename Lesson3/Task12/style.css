@@ -1,0 +1,4 @@
+ol{
+    list-style-position: outside;
+    list-style-type: decimal-leading-zero;
+}
