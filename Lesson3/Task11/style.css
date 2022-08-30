@@ -1,0 +1,18 @@
+div{
+    width: 100px;
+    height:100px;
+    background-color: rgb(255,0,0);
+}
+p{
+    width: 50%;
+    height:50%;
+    background-color: rgb(0,0,255);
+}
+p:first-child{
+    margin-left: 50%;
+    margin-top:0;
+}
+
+p:last-child{
+    margin-top: -16% ;
+}
