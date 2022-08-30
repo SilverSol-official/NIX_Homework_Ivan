@@ -5,5 +5,5 @@
     letter-spacing: 5px;
  }
  span:last-child{
-    text-shadow: 5px,5px,2px,yellow;
+   text-shadow: #ff006c 8px 19px 1px;
  }

@@ -1,0 +1,10 @@
+div{
+    border-width: 1px;
+    border-style:solid;
+    padding:10px 20px;
+}
+p{
+    border-width: inherit;
+    border-style:inherit;
+    margin:20px 10px;
+}
