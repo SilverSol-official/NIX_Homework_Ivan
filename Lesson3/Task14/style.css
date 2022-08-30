@@ -1,0 +1,35 @@
+.blue{
+    background-color: rgb(0,0,255);
+} 
+
+.red{
+    background-color: rgb(255,0,0);
+} 
+
+.squere{
+    width:50px;
+    height:50px;
+    
+}
+table{
+    border-spacing:0px;
+}
+#one{
+    border-radius: 50% 50% 0 0;
+}
+
+#two{
+    border-radius: 0 0 50% 50%;
+}
+#thre{
+    border-radius: 50% 0 0 0;
+}
+#four{
+    border-radius: 0 0 0 50%;
+}
+#five{
+    border-radius: 0 50% 50% 0;
+}
+#six{
+    border-radius: 50%;
+}
