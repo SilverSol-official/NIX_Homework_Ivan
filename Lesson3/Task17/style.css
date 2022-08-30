@@ -1,0 +1,9 @@
+div{
+    border: dashed 4px rgb(255,0,0);
+}
+p{
+    border-style: solid none;
+    padding:5px;
+}
+
+/* Я не смог установить паддинг -5 так как можно ставить только положительные числа
