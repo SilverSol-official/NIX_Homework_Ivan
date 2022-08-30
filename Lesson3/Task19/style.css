@@ -1,0 +1,13 @@
+.image{
+    width: 250px;
+    height: 150px;
+    background-image: url(w3c.jpeg);
+    background-size: 200px 150px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin:200px;
+   
+}
+div{
+    box-shadow: inset 30px -30px 10px rgb(2 155 2), inset -30px 30px 11px rgb(0 0 0), -40px -40px 11px rgb(255 0 0), 40px 40px 10px rgb(0 0 255);
+} 
