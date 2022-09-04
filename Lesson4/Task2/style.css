@@ -1,0 +1,25 @@
+.right{
+    float:right;
+}
+.left{
+    float: left;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+
+#one{
+    width:19%;
+}
+#two{
+    width: 81%;
+}
+#three{
+    width:20%;
+}
+#four{
+    width:80%;
+}
