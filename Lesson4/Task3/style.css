@@ -1,0 +1,15 @@
+.size{
+    width: 100px;
+}
+div{
+    display:block;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.foo{
+    margin-left: 1350px;
+}
