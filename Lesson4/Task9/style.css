@@ -1,0 +1,14 @@
+
+ul {
+    list-style-type: none;
+}
+
+.trigger > ul {
+    width: 50px;
+    display: none;
+    background-color: red;
+}
+
+.trigger:hover .back{
+    display: block;
+}
