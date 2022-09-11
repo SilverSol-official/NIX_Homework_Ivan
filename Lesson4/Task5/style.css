@@ -14,3 +14,11 @@
 .inline-block{
     display:inline-block;
 }
+
+.list-item{
+    display: list-item;
+}
+
+div.list-item{
+    list-style:disc;
+}

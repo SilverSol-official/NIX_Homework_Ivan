@@ -1,15 +1,26 @@
-.size{
-    width: 100px;
-}
-div{
-    display:block;
-}
-.left{
-    float:left;
-}
-.right{
-    float:right;
-}
-.foo{
-    margin-left: 1350px;
-}
+
+        .one {
+            float: left;
+            width: 20%;
+        }
+        .two {
+            float: left;
+            width: 80%;
+        }
+        .two > div {
+            float: right;
+        }
+        .three{
+            width: 25%;
+        }
+        .four{
+            width: 75%;
+        }
+        .six, .seven{
+            float: left;
+            width: 33.3%;
+        }
+        .five{
+            float: right;
+            width: 33.3%;
+        }
