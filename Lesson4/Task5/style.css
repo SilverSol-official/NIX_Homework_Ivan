@@ -17,8 +17,6 @@
 
 .list-item{
     display: list-item;
+    list-style-type: upper-alpha;
 }
-
-div.list-item{
-    list-style:disc;
-}
+body{padding:15px;}
