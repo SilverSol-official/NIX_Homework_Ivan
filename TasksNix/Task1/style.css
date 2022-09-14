@@ -1,0 +1,12 @@
+.flex-container {
+    width: 300px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+}
+.flex-item {
+    border: 1px solid #000;
+    width: 100px;
+    margin: 10px;
+}

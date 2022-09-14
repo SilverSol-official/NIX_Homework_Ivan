@@ -1,0 +1,25 @@
+div{
+    border: 2px solid black;
+    margin:5px;
+}
+
+.flex-container{
+    display:flex;
+    width: 650px;
+    height: 350px;
+    flex-direction:row;
+    align-items: flex-end ;
+}
+.flex-item{
+    width:150px;
+    height:100px;
+
+}
+
+.three{
+    align-self: start;
+}
+
+.two{
+    align-self:center;
+}
