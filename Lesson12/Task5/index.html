@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+        <li>e</li>
+        <li>f
+            <ul>
+                <li>1f</li>
+                <li>2f</li>
+                <li>3f</li>
+            </ul>
+        </li>
+        <li>g</li>
+        <li>h</li>
+        <li>k</li>
+        <li>l</li>
+    </ul>
+    <script>
+        let arr = document.querySelectorAll('li');
+        console.log(arr);
+        arr.forEach((item)=>{
+            console.log(item.firstChild.data);
+            console.log(item.querySelectorAll('li').length);
+        })
+    </script>
+</body>
+</html>
