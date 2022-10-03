@@ -250,9 +250,9 @@
 // работать будет
 
 // Task 14
-function fak(n){
-    if(n == 1){return n }else{
-    return n * fak(n-1);}
-}
-let n = +prompt("enter your number");
-alert(fak(n));
+// function fak(n){
+//     if(n == 1){return n }else{
+//     return n * fak(n-1);}
+// }
+// let n = +prompt("enter your number");
+// alert(fak(n));
