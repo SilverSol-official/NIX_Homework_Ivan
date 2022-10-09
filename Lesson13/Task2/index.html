@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Heading</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque tempora vel, eos sit ipsum cum quisquam minima
+        voluptatem, numquam, assumenda perferendis voluptas laudantium at quos recusandae aspernatur vitae maiores?
+        Iste!</p>
+    <script>
+        function showNotification(variables) {
+            let div = document.createElement('div');
+            div.style.cssText = `
+            position: fixed;    
+            top: ${variables.top || 0}px;
+            right: ${variables.right || 0}px;
+            border: solid red 2px;
+            font-size:large;
+            text-color:black;
+            font-weight:bold`;
+            div.classList.add(variables.className);
+            div.innerHTML = variables.html;
+            document.body.appendChild(div);
+            setTimeout(() => div.remove(), 1500);
+        }
+        showNotification({
+            top: 10, // 10px від верхньої межі вікна (за замовчуванням 0px)
+            right: 10, // 10px від правого краю вікна (за замовчуванням 0px)
+            html: "Hello!", // HTML-повідомлення
+            className: "welcome", // Додатковий клас для div (необов'язково)
+        })
+    </script>
+</body>
+
+</html>
