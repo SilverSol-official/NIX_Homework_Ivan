@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset="utf-8">
+<style>
+#field {
+width: 200px;
+height: 150px;
+border: 10px solid black;
+background-color: #00FF00;
+overflow: hidden;
+}
+</style>
+</head>
+
+<body style="height:2000px">
+
+Натисніть поле для переміщення м'яча.
+<br> М'яч не повинен виходити за межі поля.
+<div id="field" onclick="Move(event.clientX , event.clientY)">
+<img src="https://ru.js.cx/clipart/ball.svg" id="ball"> . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . .
+</div>
+<div class="coords"></div>
+<script>
+    function getCoords(elem) {
+    let box = elem.getBoundingClientRect();
+
+    return {
+      top: box.top + pageYOffset,
+      left: box.left + pageXOffset
+    };
+  }
+    function Move(x,y){
+        
+        document.querySelector('.coords').innerHTML=`${x};${y}`;
+
+        let fieldRect = getCoords(document.querySelector('#field'));
+        
+       
+        document.querySelector('#ball').style.cssText = `position:fixed;
+        top:${y - (ball.width/2) + "px" || 0};
+        left:${x - (ball.height/2) + "px"};`;
+
+
+
+        
+    }
+</script>
+</body>
+</html>
