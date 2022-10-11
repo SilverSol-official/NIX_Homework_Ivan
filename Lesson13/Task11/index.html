@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task11Final</title>
 </head>
+
 <body>
     <select id="genres">
         <option value="rock">Рок</option>
         <option value="blues" selected>Блюз</option>
-        </select>
-        <script>
-             choose = document.querySelector("#genres");
-    choose.addEventListener("change", () => console.log(select.options[select.selectedIndex].text));
-
-    choose.insertAdjacentHTML("beforeend", "<option value=\"classic\">Классика</option>");
-
-    choose.options[2].selected = true;
-
-    console.log(choose.options[choose.selectedIndex].text);
-        </script>
+    </select>
+    <script>
+        choose = document.querySelector("#genres");
+        choose.addEventListener("change", () => console.log(select.options[select.selectedIndex].text));
+        choose.insertAdjacentHTML("beforeend", "<option value=\"classic\">Классика</option>");
+        choose.options[2].selected = true;
+        console.log(choose.options[choose.selectedIndex].text);
+    </script>
 </body>
+
 </html>
